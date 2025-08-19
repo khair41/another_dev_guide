@@ -1,41 +1,39 @@
-# Just Another Dev Guide
+# My Java Problem-Solving Playbook
 
-This repository is my personal collection of solved coding problems in Java. It serves as my go-to reference for algorithms, data structures, and common interview questions that I have worked through.
+This repository is my personal library for learning and mastering algorithms and data structures. It's organized as a collection of topic-specific "plays" or modules, where each module is a deep dive into a single concept.
 
-## Project Philosophy
+## The Philosophy
 
-*   **Standalone Solutions**: Each Java file is designed to be a self-contained solution to a specific problem.
-*   **Runnable Examples**: Most files include a `main` method that demonstrates the solution with a sample input, making it easy to run and verify the logic.
-*   **Focus on Clarity**: The code is written to be clear and understandable, serving as a good reference for future review.
+*   **Learn by Pattern, Not by Problem:** The goal isn't just to collect solutions, but to understand the underlying *patterns* (like backtracking, sliding window, etc.) that solve entire classes of problems.
+*   **Each Topic is a Module:** Every major topic gets its own dedicated folder. This folder acts as a self-contained learning module, complete with its own notes, templates, and code examples.
+*   **Notes First, Code Second:** Each module will have its own `README.md` that explains the "What, Why, and How" of the pattern. The code is there to support the notes, not the other way around.
 
-## How to Use
+## How It's Organized
 
-The easiest way to use this repository is to open it in a Java-compatible IDE (like IntelliJ IDEA, Eclipse, or VS Code).
+The project is structured into directories, where each directory represents a core topic. Inside each directory, you'll find:
 
-From there, you can open any individual Java file and run its `main` method to see the solution in action.
+1.  A `README.md` file explaining the pattern, its use cases, trade-offs, and common pitfalls.
+2.  A `template.java` file that provides a reusable, well-commented skeleton for solving problems of that type.
+3.  Individual Java files, each being a clean, runnable solution to a specific problem using that pattern.
 
-## Current Problems in the Library
+## Topics Covered
 
-This project includes, but is not limited to, implementations for:
+This library will be organized into the following modules:
 
-*   **Recursion Practice:**
-    *   Sum of an array
-    *   String reversal
-    *   Palindrome checking
-    *   Decimal to binary conversion
-    *   Power function
-    *   Sorting a queue recursively
-    *   Generating all subsets of a set
+*   Recursion & Backtracking
+*   Arrays & Hashing
+*   Two Pointers & Sliding Window
+*   Stack
+*   Binary Search
+*   Linked Lists
+*   Trees & Tries
+*   Heaps / Priority Queues
+*   Graphs
+*   Dynamic Programming (1D & 2D)
 
-*   **Searching & Sorting:**
-    *   Binary Search
-    *   Sorting a Queue
+---
 
-*   **Data Structures & Algorithms:**
-    *   Fibonacci Sequence
-    *   Anagram Checking
-    *   Product Sum
-    *   Spiral Traversal of a Matrix
-    *   Finding the Closest Value in a Binary Search Tree (BST)
-    *   Validating a Subsequence
-    *   Finding the Smallest Difference between two arrays
+## Future Roadmap / TODO
+
+- [ ] Create a new folder structure that aims to practice by problem types.
+- [ ] Reorganize existing problems into their respective topic folders.
