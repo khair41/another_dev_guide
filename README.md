@@ -1,4 +1,4 @@
-# My Java Problem Solving Library
+# Just Another Dev Guide
 
 This repository is my personal collection of solved coding problems in Java. It serves as my go-to reference for algorithms, data structures, and common interview questions that I have worked through.
 
