@@ -1,0 +1,18 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
