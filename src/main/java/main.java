@@ -1,44 +1,59 @@
+import com.framework.Problem;
+import com.framework.ProblemRegistry;
+import com.framework.TestRunner;
 
-import java.util.*;
+import java.util.Map;
+import java.util.Scanner;
 
-
+/**
+ * The main entry point for the entire Problem-Solving Playbook.
+ * This class provides a command-line interface to discover and run tests for any
+ * problem registered in the ProblemRegistry.
+ */
 public class main {
 
     public static void main(String[] args) {
-       for(int i = 0; i < 100; i++){
-           System.out.println(i);
-       }
-    }
+        ProblemRegistry registry = new ProblemRegistry();
+        Scanner scanner = new Scanner(System.in);
 
-    public String addBinary(String a, String b) {
-        if(a.length() < b.length()){
-            String c = a;
-            a = b;
-            b = c;
+        // Main application loop
+        while (true) {
+            System.out.println("\n====== Java Problem-Solving Playbook ======");
+            Map<String, Problem<?, ?>> problems = registry.getAllProblems();
+
+            if (problems.isEmpty()) {
+                System.out.println("No com.problems are registered yet. Please register a problem in ProblemRegistry.java");
+                break;
+            }
+
+            System.out.println("Available Problems:");
+            // Display all registered com.problems in a formatted way.
+            problems.forEach((id, problem) -> System.out.printf("  - [%s]: %s%n", id, problem.getName()));
+
+            System.out.print("\nEnter a problem ID to run (or 'all', 'exit'): ");
+            String choice = scanner.nextLine();
+
+            if ("exit".equalsIgnoreCase(choice)) {
+                break;
+            }
+
+            if ("all".equalsIgnoreCase(choice)) {
+                registry.runAll();
+                continue; // Loop back to the menu
+            }
+
+            Problem<?, ?> selectedProblem = registry.getProblem(choice);
+
+            if (selectedProblem == null) {
+                System.out.println("\nInvalid ID. Please try again.");
+                continue;
+            }
+
+            // Use the generic TestRunner to run the selected problem.
+            TestRunner.run(selectedProblem);
         }
-        int i = a.length() - 1;
-        int j = b.length() - 1;
 
-        Stack<Character> s = new Stack();
-
-        char carry = '0';
-        while(i >= 0){
-            char chA = a.charAt(i);
-            char chB;
-            if(j < 0) chB = '0';
-            else chB = b.charAt(j);
-
-            Queue<Character> q = new ArrayDeque();
-            q.add(chA);
-            q.add(chB);
-            q.add(carry);
-
-
-            s.push(q.poll());
-        }
-        StringBuilder sb = new StringBuilder();
-        while(!s.isEmpty()) sb.append(s.pop());
-        return sb.toString();
+        scanner.close();
+        System.out.println("\nGoodbye!");
     }
-
 }

@@ -1,39 +1,67 @@
-# My Java Problem-Solving Playbook
+# Java Problem-Solving Playbook
 
-This repository is my personal library for learning and mastering algorithms and data structures. It's organized as a collection of topic-specific "plays" or modules, where each module is a deep dive into a single concept.
-
-## The Philosophy
-
-*   **Learn by Pattern, Not by Problem:** The goal isn't just to collect solutions, but to understand the underlying *patterns* (like backtracking, sliding window, etc.) that solve entire classes of problems.
-*   **Each Topic is a Module:** Every major topic gets its own dedicated folder. This folder acts as a self-contained learning module, complete with its own notes, templates, and code examples.
-*   **Notes First, Code Second:** Each module will have its own `README.md` that explains the "What, Why, and How" of the pattern. The code is there to support the notes, not the other way around.
-
-## How It's Organized
-
-The project is structured into directories, where each directory represents a core topic. Inside each directory, you'll find:
-
-1.  A `README.md` file explaining the pattern, its use cases, trade-offs, and common pitfalls.
-2.  A `template.java` file that provides a reusable, well-commented skeleton for solving problems of that type.
-3.  Individual Java files, each being a clean, runnable solution to a specific problem using that pattern.
-
-## Topics Covered
-
-This library will be organized into the following modules:
-
-*   Recursion & Backtracking
-*   Arrays & Hashing
-*   Two Pointers & Sliding Window
-*   Stack
-*   Binary Search
-*   Linked Lists
-*   Trees & Tries
-*   Heaps / Priority Queues
-*   Graphs
-*   Dynamic Programming (1D & 2D)
+Welcome to the Java Problem-Solving Playbook! This is a personal project designed to be a hands-on study guide for mastering common data structures and algorithms (DSA) through practice. It contains a collection of classic coding problems, multiple solutions for each, and a testing framework to verify their correctness.
 
 ---
 
-## Future Roadmap / TODO
+## 🗺️ Project Structure
 
-- [ ] Create a new folder structure that aims to practice by problem types.
-- [ ] Reorganize existing problems into their respective topic folders.
+This repository is organized to separate the testing framework from the problems themselves, making it easy to navigate and expand.
+
+*   **`/src/main/java/com/framework`**: Contains the core testing framework, including the `Problem`, `Solution`, `TestRunner`, and `ProblemRegistry` classes. This is the engine that powers the playbook.
+*   **`/src/main/java/com/problems`**: This is where all the coding problems and their solutions live. Each sub-package corresponds to a specific DSA topic.
+*   **`/logs`**: Contains development logs that document the step-by-step process of building the framework and solving the problems. See the section below for more details.
+*   **`README.md`** (this file): The central entry point and guide to the repository.
+
+---
+
+## 📚 Topics Covered
+
+This playbook is organized by topic. Each topic has its own detailed `README.md` file that serves as a study guide, complete with core concepts, common patterns, and Java-specific tips.
+
+*   **[Arrays & Hashing](./src/main/java/com/problems/arrays_hashing/README.md)**
+    *   *A collection of problems focused on array manipulations and the use of HashMaps and HashSets for efficient lookups, frequency counting, and grouping.*
+
+*More topics will be added here as you continue to build out the playbook!* 
+
+---
+
+## 🚀 How to Use This Framework
+
+This project is built around a simple, interactive command-line interface.
+
+1.  **Run the `main.java` file** to start the application.
+2.  You will be greeted with a menu listing all the problems that have been discovered by the framework.
+
+### Menu Options
+
+*   **Enter a Problem ID**: Type the ID of a problem (e.g., `0001` for Two Sum) to run all of its solutions and see a detailed test report.
+*   **Type `all`**: This will run the test suite for **every single registered problem** and provide a final summary of all passed and failed problems.
+*   **Type `exit`**: This will close the application.
+
+---
+
+## 📝 Development Logs
+
+The **`/logs`** directory contains a series of markdown files that act as a public journal of this project's development. They document the thought process, decisions, and steps taken to build the framework and solve the problems, providing insight into how the project has evolved over time.
+
+---
+
+## ✨ How to Add a New Problem
+
+Adding a new problem is designed to be easy using the built-in generator.
+
+1.  **Activate the AI Assistant**.
+2.  **Provide a prompt** like: `"create the template for [Problem Name]"`.
+3.  The assistant will ask for a few key details (input/output types, primary topic, etc.) and then automatically generate the necessary `Problem` and `Solution` class files in the correct directories.
+
+### Excluding a Problem from the Menu
+
+If you are still working on a problem and don't want it to appear in the menu or be included in the `all` command, simply add the `@ExcludeFromRegistry` annotation above the problem class definition:
+
+```java
+@ExcludeFromRegistry
+public class MyWorkInProgressProblem implements Problem<...>
+```
+
+Remove the annotation when you are ready to include it.
