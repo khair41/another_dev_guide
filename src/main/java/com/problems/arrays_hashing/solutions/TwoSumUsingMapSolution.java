@@ -10,12 +10,16 @@ public class TwoSumUsingMapSolution implements Solution<TwoSumInput, int[]> {
     @Override
     public int[] execute(TwoSumInput input) {
         Map<Integer, Integer> complements = new HashMap<>();
-        for (int i = 0; i < input.nums().length; i++) {
-            int complement = input.target() - input.nums()[i];
-            if (complements.containsKey(input.nums()[i])) {
-                return new int[]{complements.get(input.nums()[i]), i};
+        int [] nums = input.nums();
+        int target = input.target();
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            // If we have processed a complement return the answer
+            if (complements.containsKey(nums[i])) {
+                return new int[]{complements.get(nums[i]), i};
             }
-            complements.put(complement, i);
+            // add a complement for later processing
+            complements.put(nums[i] - target, i);
         }
         return new int[]{};
     }

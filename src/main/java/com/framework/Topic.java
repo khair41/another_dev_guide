@@ -25,5 +25,6 @@ public enum Topic {
     RECURSION,
     DYNAMIC_PROGRAMMING,
     MATH,
-    BIT_MANIPULATION
+    BIT_MANIPULATION,
+    GREEDY
 }

@@ -2,7 +2,7 @@ package com.problems.two_pointers.solutions;
 
 import com.framework.Solution;
 
-public class IsPalindromeStringBuilderReverseSolution implements Solution<String, Boolean> {
+public class ValidPalindromeReverseStringSolution implements Solution<String, Boolean> {
     @Override
     public Boolean execute(String s) {
         if (s == null) return false;

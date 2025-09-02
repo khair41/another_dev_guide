@@ -67,3 +67,17 @@
             // 3. UN-CHOOSE (this is the backtrack!)
             remove choice from current_path
     ```
+
+
+TODO
+
+
+
+https://leetcode.com/problems/combinations/description/
+
+
+https://leetcode.com/problems/find-the-punishment-number-of-an-integer/description/
+https://leetcode.com/problems/minimum-time-to-break-locks-i/description/
+
+Hard
+https://leetcode.com/problems/next-special-palindrome-number/description/ 
