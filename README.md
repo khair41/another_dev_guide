@@ -8,23 +8,23 @@ Welcome to the Java Problem-Solving Playbook! This is a personal project designe
 
 This repository is organized to separate the core concepts (Data Structures and Algorithmic Patterns) from the problems that use them.
 
-*   **`/data_structures`**: Contains detailed study guides for each core data structure (e.g., Arrays, Linked Lists).
-*   **`/patterns`**: Contains detailed study guides for each core algorithmic pattern (e.g., Two Pointers, Sliding Window).
+*   **`/data_structures`**: Contains high-level study guides for each core data structure (e.g., Arrays, Linked Lists).
+*   **`/patterns`**: Contains a library of clean, reusable code templates for common algorithmic patterns.
 *   **`/src/main/java/com/framework`**: The core testing framework that powers the playbook.
 *   **`/src/main/java/com/problems`**: Where all the coding problems and their solutions live, organized by topic.
 *   **`/logs`**: A public journal documenting the development of this project.
 
 ---
 
-## 📚 Study Guides
+## 📚 Topics Covered
 
-This playbook is organized into two main categories of study guides:
+This playbook is organized by topic. Each topic has its own detailed `README.md` file that serves as a study guide, complete with core concepts, common patterns, and a checklist of solved and practice problems.
 
-*   **[Data Structures](./data_structures/README.md)**
-    *   *Guides explaining the fundamental ways of storing and organizing data, focusing on their trade-offs (e.g., Arrays, Hash Tables).*
+*   **[Arrays & Hashing](./src/main/java/com/problems/arrays_hashing/README.md)**
+*   **[Two Pointers](./src/main/java/com/problems/two_pointers/README.md)**
+*   **[Stack](./src/main/java/com/problems/stack/README.md)**
 
-*   **[Algorithmic Patterns](./patterns/README.md)**
-    *   *Guides explaining reusable strategies for solving classes of problems, focusing on techniques that manipulate data (e.g., Two Pointers, Binary Search).*
+*More topics will be added here as the playbook grows!* 
 
 ---
 
@@ -61,3 +61,15 @@ public class MyWorkInProgressProblem implements Problem<...>
 ```
 
 Remove the annotation when you are ready to include it.
+
+### TODO
+- Investigate
+- Tail recursion
+- Lazy evaluation? to achieve constant time in increment operation in:
+    - https://leetcode.com/problems/design-a-stack-with-increment-operation/
+    - you dont need to calculate and store all the values before k, in case you want to read a value with an increment
+    - you simply store at k position what is the increment, then you assume that the values before that element
+    - should include the increment at k, if you pop the element that is storing the increment, move the increment to the
+    - last known position.
+
+- Kadane algorithm

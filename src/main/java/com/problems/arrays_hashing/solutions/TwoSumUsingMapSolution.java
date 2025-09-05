@@ -19,7 +19,7 @@ public class TwoSumUsingMapSolution implements Solution<TwoSumInput, int[]> {
                 return new int[]{complements.get(nums[i]), i};
             }
             // add a complement for later processing
-            complements.put(nums[i] - target, i);
+            complements.put(target - nums[i] , i);
         }
         return new int[]{};
     }

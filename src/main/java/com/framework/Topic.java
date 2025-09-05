@@ -15,6 +15,7 @@ public enum Topic {
     PREFIX_SUM,
     SLIDING_WINDOW,
     STACK,
+    DESIGN,
     BINARY_SEARCH,
     LINKED_LIST,
     TREE,

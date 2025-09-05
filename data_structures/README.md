@@ -1,4 +1,4 @@
-# AI generated documentation for Data Structures
+# Data Structures
 
 This directory contains detailed study guides for common data structures. Each data structure has its own sub-directory with a `README.md` that explains its core concepts, common patterns, Java-specific implementations, and a checklist of relevant problems.
 
@@ -112,20 +112,16 @@ This table provides a simplified overview of the average time complexities for c
 
 ## 📚 Data Structures Covered
 
-*   **[Arrays](./arrays/README.md)**
+*   **[Arrays](../src/main/java/com/problems/arrays_hashing/README.md)**
     *   *A foundational, contiguous block of memory. Arrays provide the fastest possible O(1) access to elements by index but are rigid, with a fixed size and slow O(n) insertions and deletions.*
 
-*   **Linked Lists** (Coming Soon)
-    *   *A linear structure where elements are linked by pointers. Excellent for fast O(1) insertions and deletions, but slow O(n) for access and search.*
-
-*   **Stacks & Queues** (Coming Soon)
+*   **[Stacks & Queues](../src/main/java/com/problems/stack/README.md)**
     *   *Abstract data types that enforce specific access patterns (LIFO for Stacks, FIFO for Queues). Often implemented with Arrays or Linked Lists.*
 
+*   **Linked Lists** (Coming Soon)
+
 *   **Trees** (Coming Soon)
-    *   *A non-linear, hierarchical data structure. Essential for problems involving efficient searching, sorting, and storing hierarchical data (e.g., file systems).*
 
 *   **Heaps** (Coming Soon)
-    *   *A specialized tree-based data structure that satisfies the heap property. Perfect for when you need quick access to the minimum or maximum element (Priority Queues).*
 
 *   **Tries** (Coming Soon)
-    *   *A tree-like data structure optimized for string and prefix-based searching.*
