@@ -27,5 +27,6 @@ public enum Topic {
     DYNAMIC_PROGRAMMING,
     MATH,
     BIT_MANIPULATION,
-    GREEDY
+    GREEDY,
+    MONOTONIC_STACK
 }
