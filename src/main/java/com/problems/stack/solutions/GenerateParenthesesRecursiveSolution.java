@@ -44,7 +44,8 @@ public class GenerateParenthesesRecursiveSolution implements Solution<Integer, L
 
         if(open < max){
             // the stack remembers what is the state of curr and open
-            // when the callback
+            // when the callback comes back, we are just attempting to build a different combination
+            // that's why we don't need an additional variables to trace the string state
             backtracking(ans, cur + "(", open + 1, close, max);
         }
         if(close < open){

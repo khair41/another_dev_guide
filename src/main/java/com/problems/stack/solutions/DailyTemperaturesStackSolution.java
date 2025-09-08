@@ -35,7 +35,6 @@ public class DailyTemperaturesStackSolution implements Solution<int[], int[]> {
 
     @Override
     public int[] execute(int[] temperatures) {
-        // TODO: Implement the Monotonic Stack solution logic here.
         // Initialize an answer array with zeros, as per problem statement.
         int[] answer = new int[temperatures.length];
         // Stack will store indices of temperatures.
