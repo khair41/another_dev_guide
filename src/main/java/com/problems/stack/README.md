@@ -55,3 +55,5 @@ This LIFO property is not just a limitation; it's a powerful feature. It gives u
 *   [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (Medium)
 *   [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) (Medium)
 *   [Max chunks to make sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) (Medium)
+*   [132 Pattern](https://leetcode.com/problems/132-pattern/) (Medium)
+*   [Number of Visible People in Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) (Hard)
