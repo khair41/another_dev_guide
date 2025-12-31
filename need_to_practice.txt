@@ -1,0 +1,69 @@
+Skills that I need to practice
+
+## Generate different valid inputs
+
+## Simplify Trie generation methods
+
+## Practice how to abstract graph problems (state/search)
+
+## Quickly generate decision trees
+    This will help to see the recursion or repeated work better
+
+    This should also help to find the subproblem
+
+    Cleary define the subproblem in the decision tree
+
+    Found in DP problem Word Break while trying to  see the repeated work
+
+
+### Realizations:
+    When looking at DP problems and splitting in brute force, I started noticing why different configurations can actually
+    create the repeated work.
+
+    i.e. substrings
+
+    original word: racecar
+    possible splits: [r, acecar] [race, car]
+
+    when looking at 'acecar' you will eventually reach 'car' that's when you find the repeated work, hence I can store
+    the solution if we encounter before
+
+## Function design
+    Before writing a helper function is there a better way to determine the function i need to create?
+
+## Manhattan distance
+    Should be able to calculate the distances between 2 points
+
+    This should help for Math formulas when calculating areas of figures
+
+
+Memorize
+# Kadane's
+    - Remember that the curr number can be a possible solution and the start of a seq with solution
+
+# Longest Increasing Subsequence
+
+# Linked List Operations
+    - Reverse (iterative / recursive)
+
+# LRU
+
+
+Pending
+
+TreeSet/TreeMap
+
+Longest Increasing Subsequence
+- Why optimized is n^2?
+
+Subtree of Another Tree - LeetCode
+
+Apply Substitutions - LeetCode
+
+Find the Safest Path in a Grid - LeetCode
+
+Careful with underestimating tree problems
+- Subtree of another tree
+
+BurstBallons
+Regular Expression Matching

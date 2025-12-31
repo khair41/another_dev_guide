@@ -1,0 +1,25 @@
+class TrieNode {
+    boolean isWord = false;
+    Map<Character, TrieNode> children;
+
+    TrieNode(){
+        children = new HashMap<>();
+        isWord = false;
+    }
+
+    void addWord(String word){
+        char [] arr = word.toCharArray();
+
+        TrieNode curr = this;
+
+        for(char c : arr){
+            if(!children.containsKey(c)){
+                children.put(c, new TrieNode());
+            }
+            curr = children.get(c);
+        }
+        curr.isWord = true;
+        }
+    }
+
+}

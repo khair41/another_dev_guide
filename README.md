@@ -72,4 +72,47 @@ Remove the annotation when you are ready to include it.
     - should include the increment at k, if you pop the element that is storing the increment, move the increment to the
     - last known position.
 
-- Kadane algorithm
+- Sweep line
+- State-Space Search (graph/dfs/bfs)
+- Game theory, boolean state changes
+- Quickselect
+
+Minimum Window Substring
+Sliding window maximum
+21 Game (sliding window dp)
+Sliding window median
+Median of 2 sorted arrays (finish)
+Shortest Path in Binary Matrix
+Basic Calculator 2
+Regular Expression Matching
+Longest Increasing Subsequence (LIS)
+SubArray Sum equals K (n ^ 2 solution)
+Next Permutation
+Word Search 2
+Inverse Coin change
+
+ADA
+Course Schedule (canFinish)
+Group Anagrams
+Merge Intervals
+Merge Two Sorted Lists
+Minimum Time to Visit a Cell in a Grid
+Number of Islands
+Path With Maximum Gold (Get Maximum Gold)
+Product of Array Except Self
+Remove Duplicates from Sorted Array II
+Restore IP Addresses
+Unique Paths III
+Valid Parentheses
+
+https://leetcode.com/problems/move-pieces-to-obtain-a-string/
+https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/description/
+
+stateless?
+scale of the sharding? (partition or virtual shards)
+https://www.notion.com/blog/sharding-postgres-at-notion
+https://books.dwf.dev/docs/system-design/c13
+
+back of the envelope estimation (BOTE)
+
+

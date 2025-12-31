@@ -1,0 +1,112 @@
+Tip: you dont need to solve all questions, try to solve one medium  and 1 hard per each pattern and see if others you could understand through them.
+
+Pattern
+I. Two Pointer Patterns
+Pattern 1: Two Pointers - Converging (Sorted Array Target Sum)
+Pattern 2: Two Pointers - Fast & Slow (Cycle Detection)
+Pattern 3: Two Pointers - Fixed Separation (Nth Node from End)
+Pattern 4: Two Pointers - In-place Array Modification
+Pattern 5: Two Pointers - String Comparison with Backspaces
+Pattern 6: Two Pointers - Expanding From Center (Palindromes)
+Pattern 7: Two Pointers - String Reversal
+II. Sliding Window Patterns
+Pattern 8: Sliding Window - Fixed Size (Subarray Calculation)
+Pattern 9: Sliding Window - Variable Size (Condition-Based)
+Pattern 10: Sliding Window - Monotonic Queue for Max/Min
+Pattern 11: Sliding Window - Character Frequency Matching
+III. Tree Traversal Patterns (DFS & BFS)
+Pattern 12: Tree BFS - Level Order Traversal
+Pattern 13: Tree DFS - Recursive Preorder Traversal
+Pattern 14: Tree DFS - Recursive Inorder Traversal
+Pattern 15: Tree DFS - Recursive Postorder Traversal
+Pattern 16: Tree - Lowest Common Ancestor (LCA) Finding
+Pattern 17: Tree - Serialization and Deserialization
+IV. Graph Traversal Patterns (DFS & BFS)
+Pattern 18: Graph DFS - Connected Components / Island Counting
+Pattern 19: Graph BFS - Connected Components / Island Counting
+Pattern 20: Graph DFS - Cycle Detection (Directed Graph)
+Pattern 21: Graph BFS - Topological Sort (Kahn's Algorithm)
+Pattern 22: Graph - Deep Copy / Cloning
+Pattern 23: Graph - Shortest Path (Dijkstra's Algorithm)
+Pattern 24: Graph - Shortest Path (Bellman-Ford / BFS+K)
+Pattern 25: Graph - Union-Find (Disjoint Set Union - DSU)
+Pattern 26: Strongly Connected Components (Kosaraju / Tarjan)
+Pattern 27: Bridges & Articulation Points (Tarjan low-link)
+Pattern 28: Minimum Spanning Tree (Kruskal / Prim / DSU + heap)
+Pattern 29: Bidirectional BFS (BFS optimization for known source & target
+V. Dynamic Programming (DP) Patterns
+Pattern 30: DP - 1D Array (Fibonacci Style)
+Pattern 31: DP - 1D Array (Kadane's Algorithm for Max/Min Subarray)
+Pattern 32 DP - 1D Array (Coin Change / Unbounded Knapsack Style)
+Pattern 33: DP - 1D Array (0/1 Knapsack Subset Sum Style)
+Pattern 34: DP - 1D Array (Word Break Style)
+Pattern 35: DP - 2D Array (Longest Common Subsequence - LCS)
+Pattern 36: DP - 2D Array (Edit Distance / Levenshtein Distance)
+Pattern 37: DP - 2D Array (Unique Paths on Grid)
+Pattern 38: DP - Interval DP
+Pattern 39: DP - Catalan Numbers
+Pattern 40: DP - Longest Increasing Subsequence (LIS)
+Pattern 41: DP - Stock problems
+VI. Heap (Priority Queue) Patterns
+Pattern 42: Heap - Top K Elements (Selection/Frequency)
+Pattern 43: Heap - Two Heaps for Median Finding
+Pattern 44: Heap - K-way Merge
+Pattern 45: Heap - Scheduling / Minimum Cost (Greedy with Priority Queue)
+VII. Backtracking Patterns
+Pattern 46: Backtracking - Subsets (Include/Exclude)
+Pattern 47: Backtracking - Permutations
+Pattern 48: Backtracking - Combination Sum
+Pattern 49: Backtracking - Parentheses Generation
+Pattern 50: Backtracking - Word Search / Path Finding in Grid
+Pattern 51: Backtracking - N-Queens / Constraint Satisfaction
+Pattern 52: Backtracking - Palindrome Partitioning
+VIII. Greedy Patterns
+Pattern 53: Greedy - Interval Merging/Scheduling
+Pattern 54: Greedy - Jump Game Reachability/Minimization
+Pattern 55: Greedy - Buy/Sell Stock
+Pattern 56: Greedy - Gas Station Circuit
+Pattern 57: Greedy - Task Scheduling (Frequency Based)
+Pattern 58: Greedy - Sorting Based
+IX. Binary Search Patterns
+Pattern 59: Binary Search - On Sorted Array/List
+Pattern 60: Binary Search - Find Min/Max in Rotated Sorted Array
+Pattern 61: Binary Search - On Answer / Condition Function
+Pattern 62: Binary Search - Find First/Last Occurrence
+Pattern 63: Binary Search - Median / Kth across Two Sorted Arrays
+X. Stack Patterns
+Pattern 64: Stack - Valid Parentheses Matching
+Pattern 65: Stack - Monotonic Stack
+Pattern 66: Stack - Expression Evaluation (RPN/Infix)
+Pattern 67: Stack - Simulation / Backtracking Helper
+Pattern 68: Stack - Min Stack Design
+Pattern 69: Stack - Largest Rectangle in Histogram
+XI. Bit Manipulation Patterns
+Pattern 70: Bitwise XOR - Finding Single/Missing Number
+Pattern 71:Bitwise AND - Counting Set Bits (Hamming Weight)
+Pattern 72: Bitwise DP - Counting Bits Optimization
+Pattern 73: Bitwise Operations - Power of Two/Four Check
+XII. Linked List Manipulation Patterns
+Pattern 74: Linked List - In-place Reversal
+Pattern 75: Linked List - Merging Two Sorted Lists
+Pattern 76: Linked List - Addition of Numbers
+Pattern 77: Linked List - Intersection Detection
+Pattern 78: Linked List - Reordering / Partitioning
+XIII. Array/Matrix Manipulation Patterns
+Pattern 79: Array/Matrix - In-place Rotation
+Pattern 80: Array/Matrix - Spiral Traversal
+Pattern 81: Array/Matrix - Set Matrix Zeroes (In-place Marking)
+Pattern 82: Array - Product Except Self (Prefix/Suffix Products)
+Pattern 83: Array - Plus One (Handling Carry)
+Pattern 84: Array - Merge Sorted Array (In-place from End)
+Pattern 85: Array - Cyclic Sort
+XIV. String Manipulation Patterns
+Pattern 86: String - Palindrome Check (Two Pointers / Reverse)
+Pattern 87: String - Anagram Check (Frequency Count/Sort)
+Pattern 88: String - Roman to Integer Conversion
+Pattern 89: String - String to Integer (atoi)
+Pattern 90: String - Multiply Strings (Manual Simulation)
+Pattern 91: String Matching - Naive / KMP / Rabin-Karp
+Pattern 92: String - Repeated Substring Pattern Detection
+XV. Design Patterns
+Pattern 93: Design (General/Specific)
+Pattern 94. Tries
